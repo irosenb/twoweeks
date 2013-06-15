@@ -6,6 +6,7 @@ h1 {
 	font-size: 72px;
 	margin-bottom: 2%;
 	color: #f74a4a;
+	
 }
 
 .text-center {
@@ -13,7 +14,11 @@ h1 {
 }
 
 p {
-	padding: 0 10%;
+	/*padding: 0 10%;*/
+}
+
+form {
+	display: block;
 }
 
 .i-instapaper {
@@ -22,7 +27,8 @@ p {
 
 .i-readability {
 	width: auto;
-	height: 14px;
+	height: 22px;
+	padding-right: 1px;
 }
 
 /* Pocket button color */
@@ -52,8 +58,7 @@ p {
 	*background-color: #003bb3;
 }
 /* Readability button color */
-
-/*.btn-readability {
+.btn-readability {
 	color: #FFFFFF;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #700000;
@@ -77,4 +82,4 @@ p {
 	color: #FFFFFF;
 	background-color: #700000;
 	*background-color: #003bb3;
-}*/
+}
